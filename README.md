@@ -11,12 +11,12 @@
   <a href="#styles"><kbd> <br> Styles <br> </kbd></a>&ensp;&ensp;
   <a href="#keybindings"><kbd> <br> Keybindings <br> </kbd></a>&ensp;&ensp;
   <a href="https://www.youtube.com/watch?v=2rWqdKU1vu8&list=PLt8rU_ebLsc5yEHUVsAQTqokIBMtx3RFY&index=1"><kbd> <br> Youtube <br> </kbd></a>&ensp;&ensp;
-  <a href="https://github.com/prasanthrangan/hyprdots/wiki"><kbd> <br> Wiki <br> </kbd></a>&ensp;&ensp;
+  <a href="https://github.com/JosephBoom02/hyprdots/wiki"><kbd> <br> Wiki <br> </kbd></a>&ensp;&ensp;
   <a href="https://discord.gg/qWehcFJxPa"><kbd> <br> Discord <br> </kbd></a>
 
 </div><br><br>
 
-https://github.com/prasanthrangan/hyprdots/assets/106020512/7f8fadc8-e293-4482-a851-e9c6464f5265
+https://github.com/JosephBoom02/hyprdots/assets/106020512/7f8fadc8-e293-4482-a851-e9c6464f5265
 
 <br><div align="center"><img width="12%" src="https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/arch.png"/><br></div>
 
@@ -36,7 +36,7 @@ To install, execute the following commands:
 
 ```shell
 pacman -Sy git
-git clone --depth 1 https://github.com/prasanthrangan/hyprdots ~/HyDE
+git clone --depth 1 https://github.com/JosephBoom02/hyprdots ~/HyDE
 cd ~/HyDE/Scripts
 ./install.sh
 ```
@@ -52,7 +52,7 @@ As a second install option, you can also use `Hyde-install`, which might be easi
 View installation instructions for HyDE in [Hyde-cli - Usage](https://github.com/kRHYME7/Hyde-cli?tab=readme-ov-file#usage).
 
 Please reboot after the install script completes and takes you to the SDDM login screen (or black screen) for the first time.
-For more details, please refer to the [installation wiki](https://github.com/prasanthrangan/hyprdots/wiki/Installation).
+For more details, please refer to the [installation wiki](https://github.com/JosephBoom02/hyprdots/wiki/Installation).
 
 ### Updating
 To update HyDE, you will need to pull the latest changes from GitHub and restore the configs by running the following commands: 
@@ -101,7 +101,7 @@ For more information, visit [prasanthrangan/hyde-themes](https://github.com/pras
 
 > [!TIP]
 > Everyone, including you can create, maintain, and share additional themes, all of which can be installed using themepatcher!
-> To create your own custom theme, please refer to the [theming wiki](https://github.com/prasanthrangan/hyprdots/wiki/Theming).
+> To create your own custom theme, please refer to the [theming wiki](https://github.com/JosephBoom02/hyprdots/wiki/Theming).
 > If you wish to have your hyde theme showcased, or you want to find some non-official themes, visit [kRHYME7/hyde-gallery](https://github.com/kRHYME7/hyde-gallery)!
 
 <div align="right">
