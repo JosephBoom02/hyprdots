@@ -65,7 +65,8 @@ dolphin                                                # kde file manager
 ark                                                    # kde file archiver
 vim                                                    # terminal text editor
 vscodium-bin                                           # ide text editor
-# code                                                 # ide text editor
+nvtop                                                  # gpu monitor
+btop                                                   # resource monitor
 
 
 # --------------------------------------------------- // Shell
@@ -75,7 +76,7 @@ zsh-theme-powerlevel10k-git|zsh oh-my-zsh-git          # theme for zsh
 lsd|fish                                               # file lister for fish
 starship|fish                                          # customizable shell prompt
 fastfetch                                              # system information fetch tool
-# pokemon-colorscripts-git|zsh                         # display pokemon sprites
+#pokemon-colorscripts-git|zsh                          # display pokemon sprites
 
 # --------------------------------------------------- // HyDE
 hyde-cli-git                                           # cli tool to manage hyde
