@@ -68,6 +68,7 @@ vscodium-bin                                           # ide text editor
 nvtop                                                  # gpu monitor
 btop                                                   # resource monitor
 rocm-smi-lib                                           # ROCm System Management Interface Library (needed by btop for amd gpu)
+chatterino2-7tv-bin                                    # Twitch chat client
 
 
 # --------------------------------------------------- // Shell
