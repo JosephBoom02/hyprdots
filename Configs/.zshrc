@@ -121,3 +121,4 @@ export FZF_BASE=/usr/share/fzf
 [[ -f /home/joseph/.dart-cli-completion/zsh-config.zsh ]] && . /home/joseph/.dart-cli-completion/zsh-config.zsh || true
 ## [/Completion]
 
+source /usr/share/nvm/init-nvm.sh

@@ -4,7 +4,7 @@
 
 [manager]
 ratio          = [ 1, 4, 3 ]
-sort_by        = "modified"
+sort_by        = "mtime"
 sort_sensitive = false
 sort_reverse 	 = true 
 sort_dir_first = true
@@ -51,7 +51,7 @@ extract = [
 	{ run = 'ya pub extract --list %*',   desc = "Extract here", for = "windows" },
 ]
 play = [
-	{ run = 'mpv --force-window "$@"', orphan = true, for = "unix" },
+	{ run = 'ENABLE_HDR_WSI=1 mpv --vo=gpu-next --target-colorspace-hint --gpu-api=vulkan --gpu-context=waylandvk --force-window "$@"', orphan = true, for = "unix" },
 	{ run = 'mpv --force-window %*', orphan = true, for = "windows" },
 	{ run = '''mediainfo "$1"; echo "Press enter to exit"; read _''', block = true, desc = "Show media info", for = "unix" },
 ]
@@ -139,7 +139,7 @@ cd_origin = "top-center"
 cd_offset = [ 0, 2, 50, 3 ]
 
 # create
-create_title  = "Create:"
+create_title  = ["Create:", "Create (dir):"]
 create_origin = "top-center"
 create_offset = [ 0, 2, 50, 3 ]
 
