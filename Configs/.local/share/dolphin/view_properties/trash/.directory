@@ -1,0 +1,8 @@
+[Dolphin]
+HeaderColumnWidths=474,625,119
+SortOrder=1
+SortRole=deletiontime
+Timestamp=2025,2,26,9,39,25.019
+Version=4
+ViewMode=1
+VisibleRoles=Details_text,Details_path,Details_deletiontime,CustomizedDetails

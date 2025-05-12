@@ -121,4 +121,16 @@ export FZF_BASE=/usr/share/fzf
 [[ -f /home/joseph/.dart-cli-completion/zsh-config.zsh ]] && . /home/joseph/.dart-cli-completion/zsh-config.zsh || true
 ## [/Completion]
 
-source /usr/share/nvm/init-nvm.sh
+#source /usr/share/nvm/init-nvm.sh
+
+# pnpm
+export PNPM_HOME="/home/joseph/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
+# tex
+export PATH=$PATH:"/home/joseph/tex/bin/x86_64-linux"
+export EDITOR=vim
